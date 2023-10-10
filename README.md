@@ -13,6 +13,8 @@ https://github.com/stephancasas/SwiftProcessUtils
 ## Example
 
 ```swift
+import ProcessUtils;
+
 guard
     proc_name_running("Xcode"),
     let xcodeProcess = SemanticProcess(
